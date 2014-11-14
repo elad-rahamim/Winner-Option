@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Fauna+One|Muli);
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainform {
+    width: 100%;
+    margin: 20px auto;
+    padding-top: 20px;
+    font-family: 'Fauna One', serif;
+}
+
+#form {
+
+    padding: 20px;
+    background: #727272;
+    font-size: 14px;
+    font-weight: bold;
+    width: 97%;
+    margin: auto;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    background: #464848;
+    background: -moz-linear-gradient(top, #464848 0, #000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #464848), color-stop(100%, #000));
+    background: -webkit-linear-gradient(top, #464848 0, #000 100%);
+    background: -o-linear-gradient(top, #464848 0, #000 100%);
+    background: -ms-linear-gradient(top, #464848 0, #000 100%);
+    background: linear-gradient(to bottom, #464848 0, #000 100%);
+    padding: 0px;
+    margin: 0px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+input[type=button] {
+    background: #6baa00;
+    background: -moz-linear-gradient(top, #6baa00 0, #345300 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6baa00), color-stop(100%, #345300));
+    background: -webkit-linear-gradient(top, #6baa00 0, #345300 100%);
+    background: -o-linear-gradient(top, #6baa00 0, #345300 100%);
+    background: -ms-linear-gradient(top, #6baa00 0, #345300 100%);
+    background: linear-gradient(to bottom, #6baa00 0, #345300 100%);
+    border: 1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 25px 0px;
+    line-height: 0px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    resize: none;
+}
+
+span {
+    color: red
+}
+
+#note {
+    color: black;
+    font-Weight: 400;
+}
+
+#returnmessage {
+    font-size: 14px;
+    color: green;
+    text-align: center;
+}
